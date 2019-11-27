@@ -3,6 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.bbl
+*.blg
+*.llt
+*.log
+*.out
+*~
+*.aux
+remap
+paper/Kenworthy_ALMA_J1407.pdf
+
 .DS_Store
 # C extensions
 *.so
