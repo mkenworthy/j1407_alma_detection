@@ -1,5 +1,5 @@
 %\documentclass[referee]{aa} % for a referee version
-\documentclass[twocolumn]{aa} % for a paper on 1 column  
+\documentclass{aa} % for a paper on 1 column  
 \makeatletter
 \renewcommand*\aa@pageof{, page \thepage{} of \pageref*{LastPage}}
 \makeatother
@@ -28,7 +28,7 @@
 
 \begin{document} 
 
-   \title{ALMA and NACO Observations towards the young exoring transit system J1407 (V1400 Cen)}
+   \title{ALMA and NACO observations towards the young exoring transit system J1407 (V1400 Cen)}
 
    \author{ M.A. Kenworthy
           \inst{1}
@@ -102,11 +102,11 @@
   % context heading (optional)
   {} %leave it empty if necessary  
   % aims heading (mandatory)
-  {To directly detect the thermal emission of the putative exoring system responsible for the complex deep transits observed in the light curve for the young Sco-Cen star 1SWASP J140747.93-394542.6 (V1400 Cen, hereafter "J1407"), confirming it as the occulter seen in May 2007, and to determine its orbital parameters with respect to the star.}
+  {Our aim was to directly detect the thermal emission of the putative exoring system responsible for the complex deep transits observed in the light curve for the young Sco-Cen star 1SWASP J140747.93-394542.6 (V1400 Cen, hereafter J1407), confirming it as the occulter seen in May 2007, and to determine its orbital parameters with respect to the star.}
   % methods heading (mandatory)
-  {We used the Atacama Large Millimeter/submillimeter Array (ALMA) to observe the field centered on J1407 in the 340 GHz (Band 7) continuum, in order to determine the flux and astrometric location of the ring system relative to the star.
+  {We used the Atacama Large Millimeter/submillimeter Array (ALMA) to observe the field centred on J1407 in the 340 GHz (Band 7) continuum in order to determine the flux and astrometric location of the ring system relative to the star.
     %
-  We used the VLT/NACO camera to observe the J1407 system in March 2019 and search for the central planetary mass object at thermal infrared wavelengths.}
+  We used the VLT/NACO camera to observe the J1407 system in March 2019 and to search for the central planetary mass object at thermal infrared wavelengths.}
   % results heading (mandatory)
     {We detect no point source at the expected location of J1407, and derive an upper limit $3\sigma$ level of $57.6~\mu\rm{Jy}$.
     %
@@ -115,9 +115,9 @@
       At 3.8 microns with the NACO camera, we detect the star J1407 but no other additional point sources within 1.3 arcseconds of the star, with a lower bound on the sensitivity of $6M_{Jup}$ at the location of the ALMA source, and down to $4M_{Jup}$ in the sky background limit.
       }
   % conclusions heading (optional), leave it empty if necessary 
-   {The ALMA upper limit at the location of J1407 implies that a hypothesised bound ring system is composed of dust smaller than $1\rm{~mm}$ in size, implying youth for the ring structure.
+   {The ALMA upper limit at the location of J1407 implies that a hypothesised bound ring system is composed of dust smaller than $1\rm{~mm}$ in size, implying a young ring structure.
    %
-   The detected ALMA source has multiple interpretations, two of which are (i) it is an unbound substellar object surrounded by warm dust in Sco-Cen with an upper mass limit of $6M_{Jup}$, or (ii) it is a background galaxy.
+   The detected ALMA source has multiple interpretations; here we consider two: (i) it is an unbound substellar object surrounded by warm dust in Sco-Cen with an upper mass limit of $6M_{Jup}$, or (ii) it is a background galaxy.
    %
 %   A second epoch detection with ALMA will confirm which hypothesis is correct.
 }
@@ -133,27 +133,27 @@
 
 Planet formation theory predicts that gas giant planets form in circumstellar disks (CSDs) which disperse on a timescale of $2-3$ Myr \citep{Williams11}. 
 %
-Once a planetary embryo forms within the CSD, a circumplanetary disk (CPD) builds inside the gravitational domain of the embryo, and gas and dust are transported through this disk and accrete onto the planet \citep[e.g. see reviews by][]{Armitage11,Kley12}.
+Once a planetary embryo forms within the CSD, a circumplanetary disk (CPD) builds inside the gravitational domain of the embryo, and gas and dust are transported through this disk and accrete onto the planet \citep[see reviews by e.g.][]{Armitage11,Kley12}.
 %
-Once the CSD disperses, the remaining gaseous CPD accretes onto the planet in a short time \citep{Szulagyi14,Perez15} or possibly longer timescales depending on the planet formation mechanism \citep{Szulagyi17} and may form moons within the Hill radius of the planet \citep{Canup02}.
+Once the CSD disperses, the remaining gaseous CPD accretes onto the planet in a short time \citep{Szulagyi14,Perez15} or possibly on longer timescales depending on the planet formation mechanism \citep{Szulagyi17} and may form moons within the Hill radius of the planet \citep{Canup02}.
 %
-The duration of this intermediate stage is not strongly constrained by observations \citep[upper limits of mm-sized particles to CPDs around known exoplanets are reported in][]{Perez19} but the large solid angle subtended by the Hill sphere filling disk and rings imply that transits of these systems may be common around young stars.
+The duration of this intermediate stage is not strongly constrained by observations \citep[upper limits of millimetre-sized particles to CPDs around known exoplanets are reported in][]{Perez19}, but the large solid angle subtended by the Hill sphere filling disk and rings imply that transits of these systems may be common around young stars.
 
-1SWASP J140747.93-394542.6 (``J1407'' hereafter) is a pre-main-sequence, $\sim 16$ Myr old, $0.9M_\odot$,$V=12.3{\rm~mag}$ K5 star with parallax $7.1835\pm 0.0447{\rm~mas}$ \citep{Gaia18}, consistent with  $d=138.7\pm 0.6{\rm~pc}$ \citep{Bailer-Jones18} and membership of the Sco-Cen OB association \citep{Mamajek12}.
+1SWASP J140747.93-394542.6 (hereafter J1407) is a pre-main-sequence, $\sim 16$ Myr old, $0.9M_\odot$,$V=12.3{\rm~mag}$ K5 star with parallax $7.1835\pm 0.0447{\rm~mas}$ \citep{Gaia18}, consistent with  $d=138.7\pm 0.6{\rm~pc}$ \citep{Bailer-Jones18} and membership of the Sco-Cen OB association \citep{Mamajek12}.
 %
-\citet{Mamajek12} reported  light curves for J1407 from the Super Wide Angle Search for Planets \citep[SuperWASP;][]{Butters10} and All Sky Automated Survey \citep[ASAS;][]{Pojmanski02}.
+\citet{Mamajek12} reported  light curves for J1407 from the Super Wide Angle Search for Planets \citep[SuperWASP;][]{Butters10} and the All Sky Automated Survey \citep[ASAS;][]{Pojmanski02}.
 %
 These light curves show that the star underwent a complex series of deep transits lasting 56 days around 2007 May and includes a maximum dimming of >95\%.
 %
-The gradient of the light curve during the eclipse in 2007 can be used to derive a transverse velocity of about 35 \kms{} which, combined with the 56 day duration, leads to a diameter on the order of 1.2\,au, marginally consistent with a Hill sphere filling structure around a substellar companion to J1407.
+The gradient of the light curve during the eclipse in 2007 can be used to derive a transverse velocity of about 35 \kms{}; combined with the 56 day duration, this leads to a diameter of the order of 1.2\,au, marginally consistent with a Hill sphere filling structure around a substellar companion to J1407.
 %
 An inversion of the light curve suggests several dozen rings with at least one cleared gap suggesting the presence of a forming exomoon \citep{Mamajek12,vanWerkhoven14,Kenworthy15b}.
 %
-Subsequent papers have detailed the search for successive eclipses in photometric data \citep{Kenworthy15b,Mentel18}, through radial velocity and direct imaging with full aperture and non-redundant mask imaging \citep{Kenworthy15} that have placed successively more and more stringent limits on the mass and orbital period of the putative companion.
+Subsequent papers have detailed the search for successive eclipses in photometric data \citep{Kenworthy15b,Mentel18} through radial velocity and direct imaging with full aperture and non-redundant mask imaging \citep{Kenworthy15} that have placed successively more  stringent limits on the mass and orbital period of the putative companion.
 %
-Circular orbits are strongly ruled out with these studies and the diameter of the ring system model, along with the detailed small scale structure deduced from nightly flux variations, makes it very challenging to explain the apparent stability and coherence of the rings \citep{Zanazzi17,Rieder16}.
+Circular orbits are strongly ruled out with these studies and the diameter of the ring system model, along with the detailed small-scale structure deduced from nightly flux variations, makes it very challenging to explain the apparent stability and coherence of the rings \citep{Zanazzi17,Rieder16}.
 %
-Another challenge is whether the ring gaps are caused by mean-motion resonances (MMR) or by direct clearing, and the elliptical orbit at periastron disfavours the MMR hypothesis \citep{2019MNRAS.tmp..555S}.
+Another challenge is whether the ring gaps are caused by mean-motion resonances (MMRs) or by direct clearing, and the elliptical orbit at periastron disfavours the MMR hypothesis \citep{2019MNRAS.tmp..555S}.
 %
 With the central massive object undetected, we turn to detecting the thermal radiation from the rings themselves.
 %
@@ -161,11 +161,11 @@ The rings are estimated to be 1.2\,au in diameter based on the model described i
 
 In this paper we present data from the Atacama Large Millimeter/submillimeter Array (ALMA) taken in 2017 in a search for thermal emission from the rings of the J1407 occulting object.
 %
-We report a detection of a source consistent with mm sized material close to the location of the star with ALMA, but we detect no point source at thermal infrared wavelengths at the location of the ALMA source.
+We report a detection of a source consistent with millimetre-sized material close to the location of the star with ALMA, but we detect no point source at thermal infrared wavelengths at the location of the ALMA source.
 %
 The non-detection in the thermal infrared is consistent with an upper mass limit of $6M_{Jup}$ at the age of the Sco-Cen association.
 %
-The separation of the detected source from the location of J1407 is consistent with the location for a free floating object with rings that has moved with a constant velocity (derived from the original eclipse with a value of 35 \kms{}) since the eclipse seen in 2007.
+The separation of the detected source from the location of J1407 is consistent with the location of a free-floating object with rings that has moved at a constant velocity (derived from the original eclipse with a value of 35 \kms{}) since the eclipse seen in 2007.
 
 In Sections \ref{alma} and \ref{naco} we describe the observations with ALMA and NACO and the subsequent data reduction.
 %
@@ -175,18 +175,18 @@ In the last sections we discuss the hypotheses for this detection and future obs
 
 \section{Observations with ALMA\label{alma}} %%% SECTION 2 
 
-J1407 was observed by ALMA on UT 20, 22, and 24 July 2017 for a total of 2 hours on source and 5.11 hours total time.
+The star J1407 was observed by ALMA on UT 20, 22, and 24 July 2017 for a total of 2 hours on source and a total time of  5.11 hours.
 %
-Bandpass, phase and flux calibrations were all carried out using J1427-4206 which had a flux between 1.46 and 1.5 Jy in the observed spectral windows (at 336.495, 338.432, 348.495 and 350.495 GHz).
+Bandpass, phase, and flux calibrations were all carried out using J1427-4206, which had a flux between 1.46 and 1.5 Jy in the observed spectral windows (at 336.495, 338.432, 348.495, and 350.495 GHz).
 %
-The observations were made in time domain mode (TDM), with 128 channels per spectral window.
+The observations were made in time domain mode (TDM) with 128 channels per spectral window.
 %
 The mean atmospheric precipitable water vapour (pwv) content was between 0.5 and 0.86 mm across the observations, as summarised in Table \ref{tab:Obs_params}.
 %
 Similarly, the minimum and maximum baseline lengths for each observation is presented in the same table. 
 
 \begin{table*}
-\caption{Calibrators and Observing Parameters for ALMA project 2016.1.00470.S.}
+\caption{Calibrators and observing parameters for ALMA project 2016.1.00470.S.}
 %{\bf Note: can be modified to show that the same calibrator was used for everything.  (which isn't common, but useful in this case)}}
 \begin{tabular}{lllllllll}
 \hline \hline
@@ -210,7 +210,7 @@ However, this secondary calibrator was later found to be a double source.
 %
 This could increase the uncertainty of the phase calibration, and thus the astrometric uncertainties.
 %
-To control for this uncertainty, the double source secondary calibrator was flagged out of the dataset and explicitly removed from the calibration process (in the first \texttt{hifa\_flagdata()} pipeline step), and the pipeline re-run without it.
+To control for this uncertainty, the double source secondary calibrator was flagged out of the dataset and explicitly removed from the calibration process (in the first \texttt{hifa\_flagdata()} pipeline step), and the pipeline was re-run without it.
 %
 The calibration and final products were unchanged, but any astrometric uncertainty introduced by having an extended phase calibrator was removed.
 %
@@ -225,11 +225,11 @@ As the point source was near the phase centre of the observations, we did not do
 %
 Using the {\sc casa} task \texttt{imfit}, we find that the source has a position of $\alpha$ = 14:07:47.9311($\pm$0.00062), $\delta$ = -39:45:43.26068($\pm$0\arcsec.00388) (ICRS), and a size of (95.1\,$\pm$\,18.1) $\times$\, (58.4\,$\pm$\,6.1)\,mas at a position angle of 113$^{\circ}$.4\,$\pm$\,8$^{\circ}$.4, which means it is unresolved in our synthesised beam.
 %
-Using the {\sc casa} task \texttt{imstat}, we derive a peak flux of 89 $\mu$Jy/beam and an rms noise of 19 $\mu$Jy/beam, resulting in a 4.7 sigma detection.
-
-We take the J1407 stellar parameters to be: $T_* = 4500 K$, $R_* = 1.039\pm 0.075 R_\odot$ and $L_* = 0.40\pm0.02 L_\odot$ at a distance $d = 139$ pc and a frequency of 345 GHz.
-
-The stellar photosphere flux $F_*$ from J1407 will therefore be:
+Using the {\sc casa} task \texttt{imstat}, we derive a peak flux of 89 $\mu$Jy/beam and an rms noise of 19 $\mu$Jy/beam, resulting in a 4.7 $\sigma$ detection.
+%
+We take the J1407 stellar parameters to be $T_* = 4500 K$, $R_* = 1.039\pm 0.075 R_\odot$, and $L_* = 0.40\pm0.02 L_\odot$ at a distance $d = 139$ pc and a frequency of 345 GHz.
+%
+The stellar photosphere flux $F_*$ from J1407 is therefore  
 
     $$F_* = B_\nu(T_*) \pi R_*^2/d^2 = 1.5\,{\rm \mu Jy}$$
     
@@ -238,13 +238,13 @@ This is much fainter than the detection limit of our observation, and so the sta
 \begin{figure}[tbh]
 \begin{center}
 \includegraphics[width=\columnwidth]{j1407_alma_gaia_astrometry_plot}
-\caption{\label{fig:alma}ALMA image of the field towards J1407. The location of the star J1407 in 2017 is shown as a white square and the white triangle marks the location at the time of the eclipse in 2007. The white ring marks the expected location for an object travelling at 35 \kms{} between the two epochs (assuming that the object is co-distant with J1407), with the dotted lines representing the 1$\sigma$ uncertainties. The detected ALMA source is at a position angle of approximately 95 degrees. The ALMA beam is shown in the lower left corner.}
+\caption{\label{fig:alma}ALMA image of the field towards J1407. The location of the star J1407 in 2017 is shown as a white square, and the white triangle gives the location at the time of the eclipse in 2007. The white ring indicates the expected location for an object travelling at 35 \kms{} between the two epochs (assuming that the object is co-distant with J1407);  the dotted lines represent the 1$\sigma$ uncertainties. The detected ALMA source is at a position angle of approximately 95 degrees. The ALMA beam is shown in the lower left corner.}
 \end{center}
 \end{figure}
 
 \section{Observations with NACO\label{naco}} %%% SECTION 3 
 
-The star J1407 was observed with VLT/NACO \citep{Lenzen03,Rousset03} on 1 March 2019 UT at wavelength of $3.8\mu m$.
+The star J1407 was observed with VLT/NACO \citep{Lenzen03,Rousset03} on 1 March 2019 UT at a wavelength of $3.8\mu m$.
 %
 The observing conditions were excellent with an average seeing of $0\farcs46\pm0\farcs08$ and a coherence time of $5.66\pm1.12$ milliseconds.
 %
@@ -264,16 +264,16 @@ A larger number of PCA components removes more speckles at small angular separat
 %
 To correct for this systematic loss of companion flux, fake point sources are injected at several radii from the star into the data, and then the recovered flux is measured after the pipeline data reduction.
 %
-The 5 sigma contrast was calculated by injecting fake companions (created from the stellar PSF) at various angular separations (0.14 to 1.20 arcsec in 0.054 arcsecond steps) and position angles (at 60 degree increments starting from 0 degrees).
+The 5 $\sigma$ contrast was calculated by injecting fake companions (created from the stellar PSF) at various angular separations (0.14 to 1.20 arcsec in 0.054 arcsecond steps) and position angles (at 60 degree increments starting from 0 degrees).
 %
 The small number of statistically independent patches close to the central star means that a correction is required to the sensitivity as described in \citet{Mawet14}, and we apply this correction to the contrast curve.
 
-We determined that 5 PCA components is a reasonable compromise between speckle removal and sky background sensitivity, and the final image is shown in Figure~\ref{fig:naco}, where it is seen that the sensitivity is dominated by the noise from the sky background in all but the central 0.3 arcseconds.
+We determined that 5 PCA components is a reasonable compromise between speckle removal and sky background sensitivity, and the final image is shown in Figure~\ref{fig:naco}, which shows that the sensitivity is dominated by the noise from the sky background in all but the central 0.3 arcseconds.
 
 \begin{figure}[tbh]
 \begin{center}
   \includegraphics[width=\columnwidth]{J1407_NACO_result.pdf}
-\caption{\label{fig:naco}Image at L' band towards J1407. The star is in the middle of the field of view. The two white circles indicate the location of the ALMA source if a distant unrelated source, or if it has proper motion consistent with an eclipse in 2007. Systematic errors and loss of point source sensitivity occurs within 0.2 arcseconds of J1407, marked with the orange circle. No significant point sources are detected around the star.}
+\caption{\label{fig:naco}Image at L' band towards J1407. The star is in the middle of the field of view. The two white circles indicate the location of the ALMA source if it is a distant unrelated source and if it has proper motion consistent with an eclipse in 2007. Systematic errors and loss of point source sensitivity occurs within 0.2 arcseconds of J1407 (orange circle). No significant point sources are detected around the star.}
 
 \end{center}
 \end{figure}%
@@ -304,25 +304,24 @@ The Sco-Cen association and its subgroups are unbound \citet{Wright18} with a 3D
 
 The measured brightness of the point source is consistent with our models for a ring system with a ring particle size greater than 100 microns (see next section), but the distance between the ALMA source and the location of J1407 in 2007 is $438\pm 8$ mas, which is equal to a separation of 61~au at the distance of J1407.
 %
-We have spent the months since the observations confirming with both the ALMA Allegro node in Leiden and independently with our own reduction pipelines that the astrometry is consistent, and so we adopt this astrometric solution as being accurate for the rest of the paper.
+We have spent the months since the observations confirming with both the ALMA Allegro node in Leiden and independently with our own reduction pipelines that the astrometry is consistent, and so we adopt this astrometric solution   for the rest of the paper.
 
 \section{Modelling of a ring system at millimetre wavelengths} %%% SECTION 5
 
-The optical eclipse of 2007 was seen at broadband optical wavelengths, with no color information obtained during the eclipse.
+The optical eclipse of 2007 was seen at broad-band optical wavelengths, with no colour information obtained during the eclipse.
 %
 Analysis of the optical light curve show sharp transitions in optical depth, implying the presence of discontinuities in particle density with ring radius, very similar to the rings of Saturn.
 %
-This indicates that the rings are geometrically thin \citep[with a height to diameter ratio $h_{ring}/d_{ring}\approx 0.001$;][]{Mamajek12}
+This indicates that the rings are geometrically thin \citep[with a height-to-diameter ratio $h_{ring}/d_{ring}\approx 0.001$;][]{Mamajek12}
 % 
-We should emphasise that this estimate is only valid where large gradients in the light curve are seen - during the time of smallest projected separation of J1407 behind the disk system, the derived height to diameter ratio can be much larger as the path of the star is then tangential to any azimuthally symmetrical structure in the disk - see Figure 3 in \citet{Kenworthy15b}.
+We  note that this estimate is only valid where large gradients in the light curve are seen;  during the time of smallest projected separation of J1407 behind the disk system, the derived height-to-diameter ratio can be much higher as the path of the star is then tangential to any azimuthally symmetrical structure in the disk (see Figure 3 in \citealt{Kenworthy15b}).
 %
-Both these findings point to a system in which the relative velocities between the particles may be small, leading to dust collisions that are not destructive but build up to larger sizes.
+Both of these findings point to a system in which the relative velocities between the particles may be small, leading to dust collisions that are not destructive but build up to larger sizes.
 %
-This is also seen in Saturn's rings where the dust particles are millimeter to centimeter sized \citep[e.g.,][]{Tiscareno13}.
-
-To model the continuum emission from the ring system, we adopt for the ring-hosting object the model from \citet{Baraffe08} which is closest to the mass and age constraints.
+This is also seen in Saturn's rings where the dust particles are millimetre to centimetre sized \citep[e.g.][]{Tiscareno13}.
 %
-This has a mass $5\,$\mjup, age $16.67\,$Myr, radius $1.337\,$\rjup, and luminosity $\log_{10}(L_{\rm planet}/{\rm L_{\odot}})=-4.69$.
+To model the continuum emission from the ring system, we adopt   the model from \citet{Baraffe08}, which is closest to the mass and age constraints and where the ring-hosting object has a mass $5\,$\mjup, age $16.67\,$Myr, radius $1.337\,$\rjup, and
+luminosity $\log_{10}(L_{\rm planet}/{\rm L_{\odot}})=-4.69$.
 
 % Hello @LeaksPh *cheerful wave*
 
@@ -338,27 +337,27 @@ The surface density is calculated to match the optical depth in the rings as mea
 %
 The opacities are computed using irregularly shaped grains \citep[applying the method by][]{Min05} composed of a mixture of silicate and ice (40\% Mg rich pyroxene, 60\% water ice).
 %
-This is consistent with the amount of water and silicate you would form from a mixture of elements with Solar composition, using up all the Si, Mg and O.
+This is consistent with the amount of water and silicate that  would form from a mixture of elements with solar composition, using up all the Si, Mg, and O.
 %
-Note that we do not model any dust at radii smaller than 0.19 au, as that was the smallest projected separation derived in \citet{Kenworthy15b}.
+We note that we do not model any dust at radii smaller than 0.19 au, which was the smallest projected separation derived in \citet{Kenworthy15b}.
 %
 Our model represents a lower bound on the amount of dust available for heating in this system.
 %
 The parameter space for ring models is explored by varying the separation of the ring system from the star (from 5 au to 50 au), varying the luminosity of the substellar object at the centre of the rings, and using several different configurations for the dust in the rings. 
 
-{\bf Vertical distributions:} We choose three configurations of the distribution of dust around the central object and these are represented in Figure~\ref{fig:diskmodels}.
+{\bf Vertical distributions:} We chose three configurations of the distribution of dust around the central object and these are shown in Figure~\ref{fig:diskmodels}.
 %
-The ``Thin'' model has a disk whose scale height scales linearly with $R$ as $H=0.005 R\rm{~au}$, so that along the midplane of the disk the dust is optically thick and self-shields flux from the central object.
+The `Thin' model has a disk whose scale height scales linearly with $R$ as $H=0.005 R\rm{~au}$, so that along the midplane of the disk the dust is optically thick and self-shields flux from the central object.
 %
 This is to test the hypothesis that the disk is dynamically cold and highly coplanar, consistent with the assumption that  $h_{ring}/d_{ring}\approx 0.001$ is valid for all of the disk and not just along the chord sampled by the 2007 transit.
 %
-``Thick'' models distribute the dust in a flared disk around the substellar object, with a scale height $H$ that increases with distance from the central source $R$ as $H=0.02 R^{1.1}\rm{~au}$.
+The `Thick' model distributes the dust in a flared disk around the substellar object, with a scale height $H$ that increases with distance from the central source $R$ as $H=0.02 R^{1.1}\rm{~au}$.
 %
-The temperature structure is computed assuming the disk is optically thin which provides a brightest possible disk at millimetre wavelengths.
+The temperature structure is computed assuming the disk is optically thin, which provides the brightest possible disk at millimetre wavelengths.
 %
-The ``Flared'' model has the dust in a distribution identical to the Thick model but the dust is optically thick along the midplane of the disk.
+The dust distribution in the  `Flared' model is identical to that in  the Thick model, but the dust is optically thick along the midplane of the disk.
 %
-Heating from the primary star J1407 and from the companion J1407b are taken into account using the stellar parameters listed in \citet{vanWerkhoven14} and \citet{Kenworthy15} and for a range of semi-major separations of the ring system from the central star.
+Heating from the primary star J1407 and from the companion J1407b are taken into account using the stellar parameters listed in \citet{vanWerkhoven14} and \citet{Kenworthy15}, and for a range of semi-major separations of the ring system from the central star.
 
 
 \begin{figure}[tbh]
@@ -372,7 +371,7 @@ Heating from the primary star J1407 and from the companion J1407b are taken into
 \begin{figure}[tbh]
 \begin{center}
 \includegraphics[width=0.75\columnwidth]{free_floating_ring_fluxes_interpolated_2_panel.pdf}
-\caption{\label{fig:fluxmodel}Models for the sub-mm dust emission from the ring system at ALMA Band 7 as a function of mass of the central substellar object using models from \citet{Baraffe08}, together with the ALMA photometry of the point source and the upper limit at the location of the star J1407. Three different disk configurations are presented. Colours correspond to separations from the star J1407. Yellow is 5 au, orange is 10 au, blue is 16 au.}
+\caption{\label{fig:fluxmodel}Models for the sub-mm dust emission from the ring system at ALMA Band 7 as a function of mass of the central substellar object using models from \citet{Baraffe08}, together with the ALMA photometry of the point source and the upper limit at the location of the star J1407. Three different disk configurations are presented. Colours correspond to separations from the star J1407: Yellow  5 au, orange  10 au, blue  16 au.}
 \end{center}
 \end{figure}%
 
@@ -380,47 +379,45 @@ Heating from the primary star J1407 and from the companion J1407b are taken into
 
 We discuss four hypotheses to explain our results: 
 \begin{itemize}
-    \item that the ring system is in a bound orbit around the star J1407 and we have an upper limit from the ALMA photometry, 
-    \item that the detected ALMA source is a ring system which is gravitationally unbound (and possibly completely unrelated to) the star J1407,
-    \item that the ALMA source is a background galaxy unrelated to the star or 2007 occulting object, or
-    \item that it is a noise peak in the synthesised image. 
+    \item The ring system is in a bound orbit around the star J1407, and we have an upper limit from the ALMA photometry; 
+    \item The detected ALMA source is a ring system that is gravitationally unbound from (and possibly completely unrelated to) the star J1407;
+    \item The ALMA source is a background galaxy unrelated to the star or 2007 occulting object; 
+    \item The source is a noise peak in the synthesised image. 
 \end{itemize}
 
 \subsection{An upper limit on a ring system around J1047} %%% SECTION 6.1 
 
 If we assume that the ALMA source is not the ring system detected in 2007, then the ring system is in orbit around J1407 and we do not detect it with the ALMA observations.
 %
-The models shown in Figure~\ref{fig:fluxmodel} are generated both for different dust geometries and for different separations from the parent star J1407, along with the upper limit at the location of J1407.
+The models shown in Figure~\ref{fig:fluxmodel} are generated  for different dust geometries and for different separations from the parent star J1407, along with the upper limit at the location of J1407.
 %
-The three different colours represent different distances of the ring system from the star --  5, 10 and 15 au for yellow, orange and blue respectively.
+The three different colours represent different distances of the ring system from the star:   5, 10, and 15 au for yellow, orange, and blue, respectively.
 %
-None of the ``Thin'' and ``Flaring'' models are constrained by the observations.
+Neither the Thin nor the Flaring model is constrained by the observations.
 %
-The emitted flux increases for larger grain sizes, and we could detect a ``Thick'' model disk for all masses above 20 Jupiter masses and particle sizes greater than 1mm.
+The emitted flux increases for larger grain sizes, and we could detect a Thick model disk for all masses above 20 Jupiter masses and particle sizes greater than 1mm.
 
-\subsection{A free floating ring system} %%% SECTION 6.2 
+\subsection{A free-floating ring system} %%% SECTION 6.2 
 
-We are looking towards a young stellar association and so there is the possibility that we are seeing a young planet ejected from elsewhere in the association.
+We  are looking towards a young stellar association and so there is the possibility that we are seeing a young planet ejected from elsewhere in the association.
 %
-The angular separation of the ALMA source from the location of the star $(438\pm8\rm{~mas})$ is consistent with the expected separation for an object that has travelled at 35 \kms{} since the occultation in 2007;  $543\pm82\rm{~mas}$ which we mark with the solid white circle in Figure~\ref{fig:alma} and dotted white circles marking the associated uncertainty.
+The angular separation of the ALMA source from the location of the star $(438\pm8\rm{~mas})$ is consistent with the expected separation for an object that has travelled at 35 \kms{} since the occultation in 2007  ($543\pm82\rm{~mas),}$ which we indicate with the solid white circle in Figure~\ref{fig:alma} and dotted white circles marking the associated uncertainty.
 %
-This transverse velocity was derived in \citet{Kenworthy15} by analysis of the steepest gradients in the light curve of the 2007 eclipse.
+This transverse velocity was derived in \citet{Kenworthy15} by analysis of the steepest gradients in the light curve of the 2007 eclipse and considering a straight-edged opaque occulter moving across the central disk of the star with a velocity perpendicular to the edge of the occulter.
 %
-Consider a straight edged opaque occulter moving across the central disk of the star with a velocity perpendicular to the edge of the occulter.
-%
-The transverse velocity is then proportional to the rate of change of stellar flux and the diameter of the star - knowing the light curve gradient and diameter of the star gives a velocity.
+The transverse velocity is then proportional to the rate of change of stellar flux and the diameter of the star;  knowing the light curve gradient and diameter of the star gives the velocity.
 
-The discussion in \citet{Kenworthy15} showed that several gradients would have to be discarded to make a closed circular orbit work for the orbit of the ring system, and instead an eccentric orbit was strongly preferred - or that the system could be on an unbound hyperbolic orbit with coincidental alignment in 2007.
+The discussion in \citet{Kenworthy15} showed that several gradients would have to be discarded to make a closed circular orbit work for the orbit of the ring system, and instead an eccentric orbit was strongly preferred,  or that the system could be on an unbound hyperbolic orbit with coincidental alignment in 2007.
 %
 Looking at the NACO data, any ring system would have a central object with a mass less than $6M_{Jup}$, which would be entirely possible for an unbound ring system since an unbound object does not have an associated Hill sphere.
 
-This could be the first direct detection of the ring system that eclipsed the star J1407 in 2007, and from the models in Figure~\ref{fig:fluxmodel} we can determine that the substellar object has a mass of around 6 M$_{Jup}$ Jupiter masses for a fixed particle size of 1mm in the ``Thick'' model case, or that the particle size is larger than 1mm and the substellar object can be considerably lower in mass.
+This could be the first direct detection of the ring system that eclipsed the star J1407 in 2007, and from the models in Figure~\ref{fig:fluxmodel} we can determine that the substellar object has a mass of around 6 M$_{Jup}$ Jupiter masses for a fixed particle size of 1mm in the Thick model case, or that the particle size is larger than 1mm and the substellar object can be considerably lower in mass.
 %
-If this is also the object that occulted J1407 in May 2007, the transverse velocity is 35 \kms{}, which is considerably larger than the escape velocity of the Sco-Cen cluster.
+If this is also the object that occulted J1407 in May 2007, the transverse velocity is 35 \kms{}, which is considerably higher than the escape velocity of the Sco-Cen cluster.
 %
 It therefore seems highly unlikely that we are seeing a young planet in the process of being ejected from the cluster.
 
-With this hypothesis, we predict that the ALMA source will have a proper motion of $43$ mas/year, which means that a second ALMA epoch measurement in 2020 will show approximately 130 mas of total proper motion along the line passing through J1407 and the 2017 ALMA source.
+With this hypothesis, we predict that the ALMA source  has a proper motion of $43$ mas/year, which means that a second ALMA epoch measurement in 2020 will show approximately 130 mas of total proper motion along the line passing through J1407 and the 2017 ALMA source.
 
 \subsection{An unrelated background source} %%% SECTION 6.3
 
@@ -434,17 +431,17 @@ Our source has $S_{\rm 850\mu m} =0.1{\rm mJy}$ so $S_{1.2\rm{mm}}=0.06 {\rm mJy
 
 Using Table 2 from \citet{Aravena16} we estimate 71500 sources with a flux of $89\rm{~\mu Jy}$ or greater per square degree.
 %
-The probability of finding greater than zero galaxies within a radius of $0.5$ arcseconds is around 0.0047, or 1 in 212, and the probability of finding a galaxy within the annulus representing a $35\rm{~km/s}$ free floating object is 0.0029, or 1 in 341.
+The probability of finding more than zero galaxies within a radius of $0.5$ arcseconds is around 0.0047, or 1 in 212, and the probability of finding a galaxy within the annulus representing a $35\rm{~km/s}$ free-floating object is 0.0029, or 1 in 341.
 %
 It seems unlikely that the source is a background galaxy, but we cannot rule this hypothesis out without a second epoch observation with ALMA.
 
-\section{A noise fluctuation}
+\subsection{A noise fluctuation}
 
 The last hypothesis we consider is that the ALMA source is a noise fluctuation.
 %
 This is the brightest peak within the 50\% power point of the synthesised ALMA field of view (and certainly within the proper motion circle).
 %
-Our analysis uses the primary beam corrected images, which means the noise increases away from the phase center, but the detection is close enough to the phase center that this should not impact the derived statistical significance.
+Our analysis uses the primary beam corrected images, which means the noise increases away from the phase centre, but the detection is close enough to the phase centre that this should not impact the derived statistical significance.
 %
 A detection at a second epoch would increase confidence in our interpretation.
 
@@ -452,15 +449,15 @@ A detection at a second epoch would increase confidence in our interpretation.
 
 In this paper we present observations using ALMA and NACO towards the young star J1407 in order to determine the nature of the object that caused the light curve seen in May 2007, and we report the detection of an unresolved source consistent with dust heated by a central substellar object.
 %
-We present several hypotheses for the detected ALMA source and note that it is at an angular separation consistent with a free floating ring system that happened to move through the line of sight between us and J1407 in May 2007.
+We present several hypotheses for the detected ALMA source and we note that it is at an angular separation consistent with a free-floating ring system that happened to move through the line of sight between us and J1407 in May 2007.
 %
-The upper limit of $6M_{Jup}$ at the location of the ALMA source implies that we are seeing a free floating ring system around an exoplanet, assuming the ring system formed at the same time as Sco-Cen.
+The upper limit of $6M_{Jup}$ at the location of the ALMA source implies that we are seeing a free-floating ring system around an exoplanet, assuming the ring system formed at the same time as Sco-Cen.
 %
 If the ALMA source is the object which occulted J1407 in 2007, then the proper motion of the ALMA source is $43$ mas/yr. 
 %
 An observation with ALMA three or more years after the 2017 detection will show this proper motion with enough significance to confirm or rule out this hypothesis, or it will confirm that the source is a distant background object.
 %
-Further searches are being carried out for other large ring systems both in archival data and in current wide field surveys.
+Further searches are being carried out for other large-ring systems both in archival data and in current wide field surveys.
 
 \begin{acknowledgements}
 
