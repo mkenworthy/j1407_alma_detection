@@ -19,6 +19,13 @@ The `directory paper/` contains the TeX and final figures for the paper. All the
 
 `aplpy`
 
+## Figures
+
+* Figure 1 - `j1407_alma_gaia_astrometry_plot.pdf` in `alma_analysis` generated from the Python notebook `j1407_alma_gaia_astrometry_plot.ipynb`
+* Figure 2 - `J1407_NACO_result.pdf` in `naco_analysis` generated from `plot_results_paper.py`
+* Figure 3 - `J1407_L_prime_detection_limits_dusty_pca_5.pdf` in `naco_analysis` generated from `plot_detection_limits.py`
+* Figure 4 - `model_sketch.pdf` in `ring_models` from a Keynote slide exported as a PDF.
+* Figure 5 - `free_floating_ring_fluxes_interpolated_2_panel.pdf` generated from the Python notebook `plot_free_floating_ring_fluxes_interpolated.ipynb`
 
 
 ## Licence
