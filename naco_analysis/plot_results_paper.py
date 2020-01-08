@@ -148,4 +148,8 @@ ax1_zoom.spines['left'].set_color('white')
 leg = ax_median.legend(loc=0,fontsize=12,frameon=False)
 # plt.show()
 f_median.savefig(os.path.join(path_save, "J1407_NACO_result.pdf"), bbox_inches='tight', transparent=True, pad_inches=0)
+
+hdu = fits.PrimaryHDU(im_crop)
+hdul = fits.HDUList([hdu])
+hdul.writeto('J1407_NACO_result.fits')
 plt.close(f_median)

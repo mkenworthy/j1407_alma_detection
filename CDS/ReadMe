@@ -1,0 +1,30 @@
+J/A+A/xxx/xxx      ALMA and NACO observations towards J1407    (Kenworthy+ 2020)
+================================================================================
+ALMA and NACO observations towards the young exoring transit system J1407
+    Kenworthy M.A., Klaassen P.D., Min M., van der Marel N., Bohn, A.
+    Kama M., Triaud A., Hales A., Monkiewicz J., Scott E., Mamajek E.
+    <Astron. Astrophys.xxxxxxxx>
+    =2020XXXXXXXXXXXXXXK
+================================================================================
+ADC_Keywords: Infrared sources; Millimetric/submm sources
+Keywords: stars: pre-main sequence – submillimeter: planetary systems –
+planets and satellites: formation – protoplanetary disks – planet-disk interactions – planets and satellites: gaseous planets
+
+Abstract:
+    A search for the J1407 exoring system is made with ALMA and NACO.
+
+Data description:
+    NAOS/CONICA observations with the VLT-UT1 at 3.8 microns on
+    2019-03-01 with a total integration of 5220 seconds and image
+    reduced with ADI and PCA. ALMA Band 7 observations towards J1407
+    from 2017-07-20,22,24 with a total intgration of 2 hours on source.    
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName  Lrecl  Records  Explanations
+--------------------------------------------------------------------------------
+ReadMe        80        .  This file
+naco1407.fit  80        X  NACO observation towards J1407
+alma1407.fit  80        X  ALMA observation towards J1407 
+================================================================================
+(End)                Matthew Kenworthy [Leiden Observatory]           2020-01-07
