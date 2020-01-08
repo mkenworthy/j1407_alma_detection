@@ -1,6 +1,6 @@
 # ALMA J1407 analysis
 
-ALMA data reduction and analysis by Pamela Klaassen
+ALMA data reduction and analysis by Pamela Klaassen pamela.klaassen@stfc.ac.uk
 
 ## SOURCE SIZE
 

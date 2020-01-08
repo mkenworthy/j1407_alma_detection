@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+*.obj
+paper/astroph*
+paper/exoplanet_news*
 *.bbl
 *.blg
 *.llt
